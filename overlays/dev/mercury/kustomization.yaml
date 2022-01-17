@@ -9,5 +9,3 @@ images:
     newTag: mercury
   - name: redis
     newTag: 6.2.6
-  - name: postgres
-    newTag: 9.6.24
