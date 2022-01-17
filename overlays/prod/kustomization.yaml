@@ -10,3 +10,5 @@ namespace: musicgang
 resources:
   - prod.yaml
   - ../../base
+patches:
+  - musicgang-api-deploy.yaml
