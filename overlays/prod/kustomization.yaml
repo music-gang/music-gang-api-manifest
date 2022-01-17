@@ -10,5 +10,9 @@ namespace: musicgang
 resources:
   - prod.yaml
   - ../../base
-patches:
-  - musicgang-api-deploy.yaml
+replicas:
+  - name: musicgang-api-deploy
+    count: 2
+images:
+  - name: iacopomelani/music-gang-api
+    newTag: v0.0.1
