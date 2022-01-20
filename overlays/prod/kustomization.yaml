@@ -5,7 +5,7 @@ resources:
 - prod.yaml
 - ../../base
 replicas:
-- count: 3
+- count: 4
   name: musicgang-api-deploy
 images:
 - name: iacopomelani/music-gang-api
