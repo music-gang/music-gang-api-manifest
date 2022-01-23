@@ -1,0 +1,14 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: musicgang-stage
+resources:
+  - stage.yaml
+  - ../../base
+replicas:
+  - count: 1
+    name: musicgang-api-deploy
+images:
+  - name: iacopomelani/music-gang-api
+    newTag: v0.0.3rc1
+  - name: redis
+    newTag: 6.2.6
