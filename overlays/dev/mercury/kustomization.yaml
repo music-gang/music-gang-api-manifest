@@ -6,6 +6,6 @@ resources:
 - mercury.yaml
 images:
 - name: iacopomelani/music-gang-api
-  newTag: mercury-201
+  newTag: mercury-211
 - name: redis
   newTag: 6.2.6
