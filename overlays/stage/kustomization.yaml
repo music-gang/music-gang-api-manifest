@@ -9,6 +9,6 @@ replicas:
   name: musicgang-api-deploy
 images:
 - name: iacopomelani/music-gang-api
-  newTag: v0.0.5rc2
+  newTag: v0.0.6rc1
 - name: redis
   newTag: 6.2.6
